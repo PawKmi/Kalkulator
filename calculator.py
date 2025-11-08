@@ -26,7 +26,7 @@ class Calculator:
 # Test działania klasy
 if __name__ == "__main__":
     calculator1 = Calculator(op1=4, op2=7)
-    calculator2 = Calculator(op1=3, op2=5)
+    calculator2 = Calculator(op1=2, op2=5)
     calculator3 = Calculator(op1=0, op2=0)
 
     print("Suma:", calculator1.sum())
